@@ -1,5 +1,9 @@
 # Ensembling Graph Predictions for AMR Parsing
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ensembling-graph-predictions-for-amr-parsing/amr-parsing-on-ldc2017t10)](https://paperswithcode.com/sota/amr-parsing-on-ldc2017t10?p=ensembling-graph-predictions-for-amr-parsing)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ensembling-graph-predictions-for-amr-parsing/amr-parsing-on-ldc2020t02)](https://paperswithcode.com/sota/amr-parsing-on-ldc2020t02?p=ensembling-graph-predictions-for-amr-parsing)
+
 **The source code will be available in this repo soon, details about  this repo can be found below.**
 
 
