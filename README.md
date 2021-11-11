@@ -17,7 +17,7 @@ With GRAPHENE you can perform state-of-the-art Text-to-AMR ensemble parsing. If 
       title={Ensembling Graph Predictions for AMR Parsing}, 
       author={Hoang Thanh Lam and Gabriele Picco and Yufang Hou and Young-Suk Lee and Lam M. Nguyen and Dzung T. Phan and Vanessa López and Ramon Fernandez Astudillo},
       year={2021},
-      booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}
+      booktitle = {Advances in Neural Information Processing Systems 35: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}
 }
 ```
 
