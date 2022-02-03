@@ -1,0 +1,11 @@
+torch~=1.6
+transformers==4.5.1
+datasets==1.7.0
+amrlib==0.5.1
+Penman==1.2.0
+tqdm~=4.47.0
+nltk~=3.5
+unidecode==1.2.0
+spacy==3.0.6
+sentencepiece==0.1.96
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
