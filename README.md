@@ -4,7 +4,6 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ensembling-graph-predictions-for-amr-parsing/amr-parsing-on-ldc2020t02)](https://paperswithcode.com/sota/amr-parsing-on-ldc2020t02?p=ensembling-graph-predictions-for-amr-parsing)
 
-**The source code will be available in this repo soon, details about  this repo can be found below.**
 
 
 This is the repo for GRAPHENE (Ensembling Graph Predictions for AMR Parsing), a novel approach to ensemble semantic parsing and generation, to be presented at [NeurIPS 2021](https://nips.cc/Conferences/2021/). A preprint of the paper can be found at the [following location on arxiv](https://arxiv.org/abs/2110.09131).
@@ -122,7 +121,7 @@ For Spring, ATP and Cai&Lam we used the pretrained available checkpoints.
  - vote: the first graph in the input is chosen as the pivot graph, and that graph is modified and chosen as the final prediction.
  - graphene: every input graph is chosen as a pivot graph once and the best among the modified pivot graphs is chosen as the final prediction based on average support.  
  - graphene_smatch (default): similar to graphene except in the last step, the best modified pivot graph was chosen based on average Smatch similar to Barzdins et al. rather than based on support. 
- - 
+ 
 ## Graphene Evaluation
 
 To compute comparable Smatch scores you will also need to use the scripts available at https://github.com/mdtux89/amr-evaluation. It is important to notice that the results collected using this script is about 0.3 points worse than the results using Smatch 1.0.4. Following https://github.com/SapienzaNLP/spring, the results reported in our paper are based on https://github.com/mdtux89/amr-evaluation, instead of Smatch 1.0.4.
