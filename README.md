@@ -117,8 +117,12 @@ For Spring, ATP and Cai&Lam we used the pretrained available checkpoints.
 
     python -u -m ensemble.graphene --gold gold_amr.txt --data "prediction_model_1 prediction_model_2 ...." 
  
- The results will be written to the default output file graphene.txt in the same folder where the command is run.
-
+ The results will be written to the default output file graphene_smatch.txt in the same folder where the command is run. To choose which algorithms, we can specify the algorithm flag with the following options:
+ 
+ - vote: the first graph in the input is chosen as the pivot graph, and that graph is modified and chosen as the final prediction.
+ - graphene: every input graph is chosen as a pivot graph once and the best among the modified pivot graphs is chosen as the final prediction based on average support.  
+ - graphene_smatch (default): similar to graphene except in the last step, the best modified pivot graph was chosen based on average Smatch similar to Barzdins et al. rather than based on support. 
+ - 
 ## Graphene Evaluation
 
 To compute comparable Smatch scores you will also need to use the scripts available at https://github.com/mdtux89/amr-evaluation. It is important to notice that the results collected using this script is about 0.3 points worse than the results using Smatch 1.0.4. Following https://github.com/SapienzaNLP/spring, the results reported in our paper are based on https://github.com/mdtux89/amr-evaluation, instead of Smatch 1.0.4.
