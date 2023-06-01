@@ -19,7 +19,7 @@ def prepare_data(batch_text, tokenizer, max_length, pad_id=None, return_overflow
                                                   truncation=True if max_length is not None else False,
                                                   max_length=max_length,
                                                   return_attention_mask=True,
-                                                  return_overflowing_tokens=return_overflowing_tokens,
+                                                  # return_overflowing_tokens=return_overflowing_tokens,
                                                   return_tensors=TensorType.PYTORCH)
 
     # Convert to tensors
